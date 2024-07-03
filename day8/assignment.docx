@@ -12,3 +12,13 @@ of the number.
        Description : 
               Input : 1124
               Output :  true
+
+
+
+echo "# hero" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/yashgupta78/hero.git
+git push -u origin main
